@@ -39,7 +39,7 @@ router.post('/send-email', (req, res) => {
     } else {
       res.status(200).send({
         success: true,
-        message: 'Email Sent Successfully',
+        message: 'Se envió con éxito',
       });
     }
   });
